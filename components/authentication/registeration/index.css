@@ -1,0 +1,33 @@
+/* styles.css */
+.MainDivStyle {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../../assets/images/PXnU8lViozrWmYNfu9k.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  -ms-overflow-style: none;
+  overflow: hidden;
+  margin-bottom: -80px;
+}
+
+.MainCardStyle {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for subtle depth */
+  border-radius: 16px;
+  padding: 32px; /* Increased padding for a more spacious look */
+  max-width: 450px; /* Adjusted width for better alignment */
+  width: 100%;
+  overflow: hidden;
+  margin: 16px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for better visibility on background image */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

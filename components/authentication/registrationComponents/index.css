@@ -1,0 +1,47 @@
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* styles.css */
+  .MainDivStyle {
+    position: relative; /* Use relative positioning */
+    top: -50px; /* Adjust this value to position as needed */
+    left: 0; /* Align to the left */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/images/PXnU8lViozrWmYNfu9k.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0; /* Ensure it is behind other elements */
+    -ms-overflow-style: none;
+    overflow: hidden;
+    margin-bottom: -80px;
+    border: none;
+    
+  }
+  
+
+
+
+
+
+
+.MainCardStyle {
+  border: none; /* Remove border if not needed */
+  box-shadow: none; /* Remove shadow if not needed */
+  border-radius: 16px;
+  padding: 16px; /* Use padding instead of 'p' */
+  max-width: 500px;
+  width: 100%;
+  overflow: hidden;
+  margin: 16px; /* Use margin instead of 'mx' */
+}
+
+
+
+
+
+

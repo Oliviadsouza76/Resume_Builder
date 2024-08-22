@@ -1,0 +1,51 @@
+/* Define the background image and layout for the main container */
+.divStyle {
+    background-image: url('../../../assets/images/pngtree-abstract-illustration-background.png'); /* Adjust the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  /* Style for the card component */
+  .cardStyle {
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+    border-radius: 16px; /* Rounded corners */
+    padding: 16px; /* Adjust padding */
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  }
+  
+  /* Style for the box with gradient and additional properties */
+  .authBox {
+    background-color: #e3f2fd; /* Substitute for gradient background color */
+    border-radius: 16px; /* Rounded corners */
+    padding: 40px; /* Adjust padding */
+    margin: 16px; /* Adjust margin */
+    max-width: 100%;
+    width: 300px;
+    text-align: center;
+
+  }
+  
+  /* Style for the Sign In button */
+  .SignInBox {
+    background-color: yellow; /* Default background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 16px; /* Adjust padding */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .SignInBox:hover {
+    background-color: orange; /* Background color on hover */
+  }
+  
